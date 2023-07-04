@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISfX6jyDM.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISc36j.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISfX6jyDM.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISc36j.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISfX6jyDM.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISc36j.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISfX6jyDM.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/exo/v20/4UaOrEtFpBISc36j.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container-c {
+  width: 1080px;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  background-color: #395d74;
+}
+.logoC {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  z-index: 20;
+}
+.overlay-box {
+  position: absolute; /* H=203,S=34,(L-7)%101 */
+  width: 1080px;
+  height: 1080px;
+}
+.imagebg {
+  width: 770px;
+  height: 770px;
+  z-index: 10;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("");
+}
+/* .box-color {
+  position: absolute;
+  background-color: #395d74;
+  opacity: 0.30000001192092896;
+  z-index: 20;
+} */
+.box-1 {
+  width: 48px;
+  height: 48px;
+  top: 110px;
+  right: 10px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-2 {
+  width: 92px;
+  height: 92px;
+  top: 126px;
+  right: 37px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-3 {
+  width: 268px;
+  height: 268px;
+  top: 156px;
+  right: 220px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-4 {
+  width: 84px;
+  height: 84px;
+  top: 369px;
+  right: 186px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-5 {
+  width: 92px;
+  height: 92px;
+  top: 491px;
+  right: -18px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-6 {
+  width: 48px;
+  height: 48px;
+  top: 526px;
+  right: 59px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-7 {
+  width: 268px;
+  height: 268px;
+  top: 540px;
+  right: 580px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-8 {
+  width: 48px;
+  height: 48px;
+  top: 934px;
+  left: 6px;
+  position: absolute;
+  background-color: #2D4A5C;
+  opacity: 0.30000001192092896;
+}
+.box-9 {
+  width: 772px;
+  height: 270px;
+  bottom: 90px;
+  right: 0px;
+  display: flex;
+  opacity: 1;
+  z-index: 12;
+  position: absolute;
+  background-color: #2D4A5C;
+  /* opacity: 0.30000001192092896; */
+}
+.text {
+  font-family: Poppins;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
+  padding-top: 18px;
+  padding-right: 38px;
+  padding-left: 30px;
+  color: white;
+}
+.date-name {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 3px;
+}
+.verified {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.selectedC {
+  min-width: 363px;
+  min-height: 69px;
+  top: 665px;
+  right: 0px;
+  position: absolute;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f3ece0;
+  font-size: 30px;
+  color: black;
+}
+.campaignC {
+  min-width: 504px;
+  min-height: 69px;
+  top: 21px;
+  left: 0px;
+  position: absolute;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f3ece0;
+
+  color: black;
+}
+.coupon-main-c {
+  position: absolute;
+  bottom: 128px;
+  left: 0px;
+  
+}
+.couponC {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 133px;
+  left: 0px;
+  color: #000;
+  font-size: 24px;
+  font-family: Exo;
+  text-transform: uppercase;
+  width: 263px;
+  /* align-items: center; */
+  height: 136px;
+  justify-content: center;
+  gap: 8px;
+}
+.date {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+.rev-text {
+    font-size: 24px !important;
+}
+.name {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+.couponDesc {
+  padding-top: 20px;
+  padding-left: 19px;
+}
+.star {
+  right: 36.6px;
+  top: 614px;
+  position: absolute;
+  display: flex;
+}
+.coupon {
+  padding-bottom: 20px;
+  padding-left: 19px;
+  font-weight: 700;
+}
+.bottomc {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 91.71%;
+  bottom: -0.04%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.bottom-logo {
+  background-image: url("https://www.imprzd.com/bi/ssr-assets/imprzd-post-footer.png");
+  background-size: 434px 80px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 434px;
+}
