@@ -22,7 +22,7 @@ function App() {
           <Suspense fallback={null}>
             <ambientLight />
             <directionalLight intensity={2} position={[0, 0, 50]} />
-            <Car />
+            <Jordan />
             <OrbitControls
               enableZoom={true}
               enablePan={true}
