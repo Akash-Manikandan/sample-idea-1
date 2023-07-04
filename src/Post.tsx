@@ -32,22 +32,6 @@ export default function Post() {
                 src="https://www.imprzd.com/bi/ssr-assets/black_border_badge.svg"
                 alt="Verified Badge"
               />
-              <img
-                src="https://www.imprzd.com/bi/ssr-assets/black_border_badge.svg"
-                alt="Verified Badge"
-              />
-              <img
-                src="https://www.imprzd.com/bi/ssr-assets/black_border_badge.svg"
-                alt="Verified Badge"
-              />
-              <img
-                src="https://www.imprzd.com/bi/ssr-assets/black_border_badge.svg"
-                alt="Verified Badge"
-              />
-              <img
-                src="https://www.imprzd.com/bi/ssr-assets/black_border_badge.svg"
-                alt="Verified Badge"
-              />
             </div>
           </div>
         </div>
