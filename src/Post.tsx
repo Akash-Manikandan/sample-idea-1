@@ -9,7 +9,6 @@ export default function Post() {
       <div className="box-6 box-color"></div>
       <div className="box-7 box-color"></div>
       <div className="box-8 box-color"></div>
-
       <div className="logoC">
         <div className="logo" id="logoId"></div>
       </div>

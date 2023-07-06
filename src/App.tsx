@@ -7,32 +7,36 @@ import Post from "./Post";
 import { Bag } from "./Model/Bag";
 import { Rolex } from "./Model/Rolex";
 import { Car } from "./Model/Car";
-// import { Bag } from "./BagModel/Bag";
+import html2canvas from "html2canvas";
 
 function App() {
+ 
   return (
-    <div>
-      <div className="w-[1080px] z-50 absolute top-6 left-0 flex items-center justify-center">
-        <Canvas
-          style={{  
-            width: "750px",
-            height: "750px",
-          }}
-        >
-          <Suspense fallback={null}>
-            <ambientLight />
-            <directionalLight intensity={2} position={[0, 0, 50]} />
-            <Jordan />
-            <OrbitControls
-              enableZoom={true}
-              enablePan={true}
-              enableRotate={true}
-            />
-          </Suspense>
-        </Canvas>
+    <>
+      <div className="target-div">
+        <div className="w-[1080px] z-50 absolute top-6 left-0 flex items-center justify-center">
+          <Canvas
+            style={{
+              width: "750px",
+              height: "750px",
+            }}
+          >
+            <Suspense fallback={null}>
+              <ambientLight />
+              <directionalLight intensity={2} position={[0, 0, 50]} />
+              <Jordan />
+              <OrbitControls
+                enableZoom={true}
+                enablePan={true}
+                enableRotate={true}
+              />
+            </Suspense>
+          </Canvas>
+        </div>
+        <Post />
       </div>
-      <Post />
-    </div>
+    
+    </>
   );
 }
 
