@@ -19,7 +19,7 @@ export function Jordan(props: JSX.IntrinsicElements["group"]) {
   const group = useRef(new THREE.Group());
   useFrame(({ clock }) => {
     // group.current.rotation.z = clock.getElapsedTime();
-    // group.current.rotation.y = clock.getElapsedTime();
+    group.current.rotation.y = clock.getElapsedTime();
     // group.current.rotation.x = 360;
   });
   const { nodes, materials } = useGLTF("/jordan-transformed.glb") as GLTFResult;
